@@ -1,0 +1,23 @@
+{
+  "name": "webpack_session",
+  "version": "1.0.0",
+  "description": "TDT webpack session",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bewithjonam/webpack_session.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bewithjonam/webpack_session/issues"
+  },
+  "homepage": "https://github.com/bewithjonam/webpack_session#readme",
+  "devDependencies": {
+    "webpack": "^5.22.0",
+    "webpack-cli": "^4.5.0"
+  }
+}
