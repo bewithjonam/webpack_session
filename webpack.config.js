@@ -12,5 +12,18 @@ module.exports = {
     new webpack.ProvidePlugin({
       '_': 'lodash'
     })
-  ]
+  ],
+  module: {
+    rules: [
+      {
+        test: /\.csv$/,
+        loader: 'csv-loader',
+        options: {
+          dynamicTyping: true,
+          header: true,
+          skipEmptyLines: true
+        }
+      }
+    ]
+  }
 };

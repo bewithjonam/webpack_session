@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/bewithjonam/webpack_session#readme",
   "devDependencies": {
+    "csv-loader": "^3.0.3",
     "webpack": "^5.22.0",
     "webpack-cli": "^4.5.0"
   },
