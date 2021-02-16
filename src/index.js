@@ -1,9 +1,7 @@
-alert('how are you da dae...');
+import _ from 'lodash';
 
+var results = _.map([1,2,3,4,5], (i) => {
+  return i * i;
+});
 
-// var a = 0;
-// alert(`addition result is ${a + 1}`
-
-
-// var a = new Date();
-// alert(`addition result is ${a + 1}`
+alert(results);
