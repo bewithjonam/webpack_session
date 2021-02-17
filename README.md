@@ -13,3 +13,4 @@ WEBPACKER_CONFIG="config/webpacker.yml" ./node_modules/.bin/webpack --config con
 
 -> https://github.com/rails/webpacker/blob/master/package/environments/development.js
 -> https://github.com/rails/webpacker/blob/master/package/environments/base.js
+-> https://github.com/rails/webpacker/tree/master/package/rules
